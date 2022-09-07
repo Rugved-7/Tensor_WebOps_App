@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task</title>
+</head>
+
+
+<style>
+    .grid-container{
+        display:grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        background-color: black;
+        border: 2px black;
+        align-content: center;
+        margin: 5px;
+        padding: 50px;
+        margin-left: 2.5px;
+
+    }
+    .grid-item-1,.grid-item-2,.grid-item-3,.grid-item-4,.grid-item-5,.grid-item-6,.grid-item-7,.grid-item-8,.grid-item-9,.grid-item-10{
+        font-size:x-large;
+        padding-left:10px ;
+        padding-top:10px ;
+        padding-right:10px ;
+        padding-bottom:10px ;
+        font-weight: bold;
+        transition: height 4s,width 2s;
+    }
+    .grid-item-1{
+        background-color: aqua;
+        color:purple;
+        
+    }
+    .grid-item-1:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-2{
+        background-color: aquamarine;
+        
+        color: orangered;
+    }
+    .grid-item-2:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-3{
+        background-color:red;
+        color: yellow;
+    }
+    .grid-item-3:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-4{
+        background-color:blue;
+        color: aqua;
+    }
+    .grid-item-4:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-5{
+        background-color:orange;
+        color:blueviolet;
+        
+    }
+    .grid-item-5:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-6{
+        background-color: yellowgreen;
+        
+        color: red;
+    }
+    .grid-item-6:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-7{
+        background-color:yellow;
+        
+        color: black;
+    }
+    .grid-item-7:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-8{
+        background-color:palegreen;
+        color: navy;
+    }
+    .grid-item-8:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-9{
+        background-color: indigo;
+        color: orange;
+        
+    }
+    .grid-item-9:hover{
+        width: 255px;
+        height: 205px;
+    }
+    .grid-item-10{
+        background-color: brown;
+        
+        color: white;
+    }
+    .grid-item-10:hover{
+        width: 255px;
+        height: 205px;
+    }
+    
+    @media screen and (min-width:992px) {
+        .grid-container{
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+    
+    @media screen and (max-width:992px) {
+        .grid-container{
+            grid-template-columns: auto auto auto;
+        }
+    }
+
+    @media screen and (max-width:600px){
+        .grid-container{
+            grid-template-columns: 100%;
+        }
+    }
+    
+</style>
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1">Name:Luke SkyWalker
+            <br>Height:172
+            <br>Mass:77
+            <br>Birth year:19BBY
+            <br>Gender:Male
+        </div>
+        <div class=" grid-item-2">Name:C-3PO
+            <br>Height:167
+            <br>Mass:75
+            <br>Birth year:112BBY
+            <br>Gender:n/a
+        </div>
+        <div class=" grid-item-3">Name:R2-D2
+            <br>Height:96
+            <br>Mass:32
+            <br>Birth year:33BBY
+            <br>Gender:n/a
+        </div>
+        <div class="grid-item-4">Name:Darth Vader
+            <br>Height:202
+            <br>Mass:136
+            <br>Birth year:41.9BBY
+            <br>Gender:Male
+        </div>
+        <div class="grid-item-5">Name:Leia Organa
+            <br>Height:150
+            <br>Mass:49
+            <br>Birth year:19BBY
+            <br>Gender:Female
+        </div>
+        <div class="grid-item-6">Name:Owen Lars
+            <br>Height:178
+            <br>Mass:120
+            <br>Birth year:52BBY
+            <br>Gender:Male
+        </div>
+        <div class=" grid-item-7">Name:Beru Whitesun lars
+            <br>Height:165
+            <br>Mass:75
+            <br>Birth year:47BBY
+            <br>Gender:Female
+        </div>
+        <div class="grid-item-8">Name:R5-D4
+            <br>Height:97
+            <br>Mass:32
+            <br>Birth year:
+            <br>Gender:n/a
+        </div>
+        <div class="grid-item-9">Name:Biggs Darklighter
+            <br>Height:183
+            <br>Mass:84
+            <br>Birth year:24BBY
+            <br>Gender:Male
+        </div>
+        <div class="grid-item-10">Name:Obi-Wan Kenobi
+            <br>Height:182
+            <br>Mass:77
+            <br>Birth year:57BBY
+            <br>Gender:Male
+        </div>
+    </div>
+    
+</body>
+</html>
